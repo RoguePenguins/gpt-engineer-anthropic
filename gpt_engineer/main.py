@@ -19,7 +19,7 @@ def chat(
         "",
         help="run prefix, if you want to run multiple variants of the same project and later compare them",
     ),
-    model: str = "gpt-4",
+    model: str = "claude-instant-v1",
     temperature: float = 0.1,
     steps_config: str = "default",
 ):
